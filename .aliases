@@ -20,3 +20,4 @@ alias mtmux="tmux new-session -A -s main"
 
 # fasd vim alias
 alias v='f -e vim'
+alias j='fasd_cd -d -i'
