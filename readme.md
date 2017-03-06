@@ -1,2 +1,2 @@
 ### fasd
-(fasd)[https://github.com/clvv/fasd]
+[fasd](https://github.com/clvv/fasd)
