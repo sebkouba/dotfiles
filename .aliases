@@ -17,3 +17,6 @@ alias mkdir='mkdir -pv'
 alias ping='ping -c 3'
 
 alias mtmux="tmux new-session -A -s main"
+
+# fasd vim alias
+alias v='f -e vim'
