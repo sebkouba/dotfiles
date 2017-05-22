@@ -1,0 +1,25 @@
+// Work Mac
+{
+    "editor.cursorStyle": "block",
+    "editor.renderIndentGuides": true,
+    "files.associations": {
+        "**/defautls/**/*": "ansible",
+        "**/tasks/**/*.yml" : "ansible",
+        "**/handler/*.yml" : "ansible",
+        "**/*_vars/**/*.yml" : "ansible",
+        "**/roles/**/*.yml" : "ansible",
+        "**/playbooks/**/*.yml" : "ansible",
+        "**/*ansible*/**/*.yml" : "ansible",
+        "**/vars/**/*.yml": "ansible",
+        "**/inventory/*/*": "ansible",
+        "*.j2": "shellscript"
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    // OS X
+    "terminal.integrated.shellArgs.osx": ["-l"]
+}
