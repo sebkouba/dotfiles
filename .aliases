@@ -20,10 +20,6 @@ alias ping='ping -c 3'
 
 alias mtmux="tmux new-session -A -s main"
 
-# fasd vim alias
-alias v='f -e vim'
-alias j='fasd_cd -d -i'
-
 # systemd
 alias status="systemctl status"
 alias stop="sudo systemctl stop"
