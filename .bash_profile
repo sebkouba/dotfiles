@@ -47,3 +47,6 @@ shopt -s cmdhist
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 # ^ the only downside with this is [up] on the readline will go over all history not just this bash session.
+# vim as default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
