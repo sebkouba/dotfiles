@@ -135,3 +135,7 @@ nnoremap <C-L> :nohl<CR><C-L>
  
 " This is totally awesome - remap jj to escape in insert mode.  You'll never type jj anyway, so it's great!
 inoremap jj <Esc>
+
+" Enter inserts line without entering edit mode
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
